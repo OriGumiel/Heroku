@@ -8,6 +8,6 @@ app.get("/*", (req, res) => {
   });
   
 
-app.listen(5000,() =>
-console.log("Servidor 5000 corriendo")
-);
+app.listen(process.env.PORT || 3000, function() {
+  console.log("Servidor 5000 corriendo");
+})
