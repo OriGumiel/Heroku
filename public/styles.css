@@ -27,14 +27,18 @@ p {
     width: 90%;
     margin: 0 auto;
 }
-.navegacion ul{
-    
+.navegacion ul{  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;  
+}
+
+.sesion ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
 }
 
 header {
@@ -51,7 +55,7 @@ header div.logo {
 }
 
 header nav {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 header ul li {
@@ -86,7 +90,7 @@ header .form button {
     border: 1px solid #000;
     border-radius: 10px;
     color: #666;
-    width: 5%;
+    width: 15%;
 }
 
 header div.top-header p {
@@ -217,8 +221,16 @@ article div.main-article .discount {
     }
 }
 
-footer h4 {
-text-align: center;
+footer section{
+display: flex;
+justify-content: space-between;
+}
+
+footer section div{
+    text-align: center;
+    color: #666;
+    width: 30%;
+    padding: 30px;
 }
 
 footer ul text i {
